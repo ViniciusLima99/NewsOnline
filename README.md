@@ -8,14 +8,14 @@ Se trata de um site com sistema de login para acesso que utiliza API GDEL para t
 
 Para rodar a aplicação:
 
-Na pasta Frontend
+-Na pasta Frontend
 
 npm install
 
 npm run dev  
 
 
-Na pasta Backend  
+-Na pasta Backend  
 
 Criar arquivo .env conforme o exemplo
 
@@ -24,5 +24,5 @@ npm install
 npx nodemon index.js
 
 
-Banco de Dados
+-Banco de Dados
 MongoDB na porta 27017
