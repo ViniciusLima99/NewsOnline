@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+} 
+
+.principal {
+  margin-top: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.navbar-color {
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.8)) ;
+}
+.titulo-principal {
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.form-user {
+  background-color: gray !important;
+  width:400px;
+} 
+.largm {
+  height: 90vh;
+} 
+
+.tituloCadastro {
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+} 
+
+.btn-cinza {
+  background-color: #414040;
+  color: white;
+}
+.btn-primary {
+    background-image: linear-gradient(to right, blue 30%, rgb(163, 156, 156) 50%, blue 70%) !important;
+    color: black !important; /* Para garantir que o texto fique legível */
+    font-weight: bold;
+    width: 40%;
+  }
+
+
+@media(max-height: 366px) {
+  .form-user {
+    height: 220px;
+  }
+  .form-control {
+    padding: 1px !important;
+  }
+}
+@media (max-height: 460px) {
+  .mb-3 {
+    margin-bottom: 0px !important;
+  }
+}
+@media (max-width: 420px) {
+  .form-user {
+    width: 300px;
+  }
+}
